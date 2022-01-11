@@ -6,7 +6,8 @@
 
     --color-background: #EFEFEF;
     --color-front: #A9A9A9;
-    --color-highlighter: #CAEBF2;
+    --color-highlighter: #a2bcc2;
+    --color-highlighter-bg: #82969b;
     --color-pop: #bb0be4;
 }
 
@@ -20,16 +21,17 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--color-front);
+    background: var(--color-highlighter);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--color-highlighter);
+    background: var(--color-highlighter-bg);
 }
 
 /* CUSTOM SELECTION COLOR */
 p::selection, a::selection, li::selection, span::selection {
-    color: var(--color-highlighter);
+    color: var(--color-highlighter-bg);
+    background: var(--color-highlighter);
 }
 
 /* DARK MODE
