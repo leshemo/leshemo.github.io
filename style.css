@@ -78,12 +78,15 @@ a {
 /* CLASSES */
 .text-primary {
     font-family: "Work Sans", sans-serif;
-    font-weight: 200;
+    font-weight: 400;
+
+    
 }
 
 .text-secondary {
-    font-family: "Questrial", sans-serif;
-    font-weight: 18;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
 }
 
 .invisible-link {
@@ -155,13 +158,29 @@ a {
     list-style-type: none;
 }
 
+#hey ul {
+    width: 75vw;
+    height: 3.33vw;
+    left: 12.5vw;
+    top: 28.54vw;
+
+    font-size: 1.25vw;
+    line-height: 1.66vw;
+    text-align: justify;
+}
+
 #title {
-    width: 100%;
-    height: calc(var(--row) * 3);
-    padding: var(--row) 0;
+    width: 38.958vw;
+    height: 7.986vw;
+    left: 12.5vw;
+    top: 19.24vw;
+
+    background-image: linear-gradient(60deg, #9845E8, #33D2FF, #312DE3);
+    background-clip: text;
+    color: transparent;
     
-    font-size: 7.4vw;
-    text-align: center;
+    font-size: 6.6vw;
+    text-align: start;
 }
 
 #text-flex-container {
