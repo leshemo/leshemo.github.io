@@ -83,10 +83,11 @@ a {
 }
 
 .gradient-text {
-    font-family: "Work Sans", sans-serif;
+    font-family: Lato;
+    font-style: normal;
     font-weight: 400;
     /* #33D2FF, */
-    background-image: linear-gradient(60deg, #9845E8,  #312DE3);
+    background-image: linear-gradient(60deg, #9845E8, #33D2FF, #312DE3);
     background-clip: text;
     color: transparent;
 }
@@ -95,6 +96,7 @@ a {
     font-family: Inter;
     font-style: normal;
     font-weight: 300;
+    font-size: 18px
 }
 
 .invisible-link {
