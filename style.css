@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Questrial&family=Work+Sans:wght@300&display=swap');
 
+
 :root {
     --col: calc(100vw / 5);
     --row: calc(100vh / 7);
@@ -83,11 +84,11 @@ a {
 }
 
 .gradient-text {
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 400;
     /* #33D2FF, */
-    background-image: linear-gradient(60deg, #9845E8, #33D2FF, #312DE3);
+    background-image: linear-gradient(60deg, #9845E8, #312DE3);
     background-clip: text;
     color: transparent;
 }
