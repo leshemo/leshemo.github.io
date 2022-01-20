@@ -162,11 +162,11 @@ a {
 
 #navigation ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     list-style-type: none;
 }
 
-#hey ul {
+#hey {
     width: 4.1vw;
     height: 3.33vw;
     left: 12.5vw;
