@@ -79,8 +79,16 @@ a {
 .text-primary {
     font-family: "Work Sans", sans-serif;
     font-weight: 400;
-
     
+}
+
+.gradient-text {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    /* #33D2FF, */
+    background-image: linear-gradient(60deg, #9845E8,  #312DE3);
+    background-clip: text;
+    color: transparent;
 }
 
 .text-secondary {
@@ -159,7 +167,7 @@ a {
 }
 
 #hey ul {
-    width: 75vw;
+    width: 4.1vw;
     height: 3.33vw;
     left: 12.5vw;
     top: 28.54vw;
@@ -170,14 +178,11 @@ a {
 }
 
 #title {
-    width: 38.958vw;
+    width: 100%;
     height: 7.986vw;
     left: 12.5vw;
     top: 19.24vw;
 
-    background-image: linear-gradient(60deg, #9845E8, #33D2FF, #312DE3);
-    background-clip: text;
-    color: transparent;
     
     font-size: 6.6vw;
     text-align: start;
