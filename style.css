@@ -88,7 +88,7 @@ a {
     font-weight: 400;
     /* #33D2FF, */
     /* background-image: linear-gradient(60deg, #9845E8, #312DE3); */
-    background: -webkit-linear-gradient(60deg, #9845E8, #33D2FF #312DE3);
+    background: -webkit-linear-gradient(60deg, #9845E8, #312DE3);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
