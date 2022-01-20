@@ -96,8 +96,7 @@ a {
 }
 
 .text-secondary {
-    font-family: Inter;
-    font-style: normal;
+    font-family: 'Inter', sans-serif;
     font-weight: 300;
     font-size: 18px
 }
